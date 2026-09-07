@@ -1,0 +1,3 @@
+import PropertyFinder from '@/components/PropertyFinder';
+export const metadata={title:'Find My Property'};
+export default function Page(){return <main className="min-h-screen bg-ink pt-28 text-white"><div className="container-x grid gap-10 py-14 md:grid-cols-[.8fr_1.2fr]"><div><div className="eyebrow text-white/40">Find my property</div><h1 className="display mt-3 text-6xl font-semibold leading-[.95] md:text-8xl">Start with your decision, not a project.</h1><p className="mt-5 max-w-lg leading-7 text-white/55">Answer four questions and get a starting shortlist. No registration required to see the matches.</p></div><PropertyFinder/></div></main>}
